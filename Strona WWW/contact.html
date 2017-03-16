@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang= "pl">
+<html>
+<head>
+<link rel="icon" href="images/icon.ico" />
+	<title>Contact -- Machine Factory</title>
+	<meta name="generator" content="Notepad++">
+	<meta name="author" content="Sebastian PowroŸnik">
+	<script src="jquery-1.11.3.min.js"></script>
+	<meta name="keywords" content="Sebastian PowroŸnik, Machine Factory, Fabryka Maszyn, CNC, Czêœæi Maszyn">
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+<body onload="Load()">
+	<div class="container">
+		<header id="BigHeader">
+			<a href="index.html"><img src="images/logo57.png"/></a>
+		</header>
+		<header id="MiddleHeader">
+			<a href="index.html"><img src="images/MiddleHeader.png"/></a>
+		</header>
+		<header id="SmallHeader">
+			<a href="index.html"><img src="images/MiddleHeader.png"/></a>
+		</header>
+	<nav class = "menumniejsze">
+		<div class = "menumniejszediv">MENU
+			<ol id="menumniejsze">
+			<li><a href="index.html">Strona G³ówna</a></li>
+			<li><a href="about.html">O Firmie</a></li>
+			<li><a href="offers.html">Oferty</a></li>
+			<li><a href="education.html">Kursy</a></li>
+			<li><a href="employment.html">Zatrudnienie</a></li>
+			<li style="background-color: #262626; color: black; font-weight: bold; ">Kontakt</li>
+		</ol>
+		</div>
+	
+	</nav>
+	<div class="menu">
+		<ol id="menu">
+			<li><a href="index.html">Strona G³ówna</a></li>
+			<li><a href="about.html">O Firmie</a></li>
+			<li><a href="offers.html">Oferty</a></li>
+			<li><a href="education.html">Kursy</a></li>
+			<li><a href="employment.html">Zatrudnienie</a></li>
+			<li style="background-color: #262626; color: black; font-weight: bold; ">Kontakt</li>
+		</ol>
+	</div>
+	
+	<div id="slider">
+		
+        <div id="imgs">
+			
+            <img id="Img4" src="images/4.jpg"/>
+            <img id="Img3" src="images/3.jpg"/>
+            <img id="Img2" src="images/2.jpg"/>
+            <img id="Img1" src="images/1.jpg"/>
+        </div>
+		
+        <div id="Snav">
+            <div id="SnavUp">
+                <div id="Scircles">
+                    <ul>
+                        <li id="S0"></li>
+                        <li id="S1"></li>
+                        <li id="S2"></li>
+                        <li id="S3"></li>
+						
+                    </ul>
+                </div>
+            </div>
+            <div id="SnavMiddle">
+                <img id="Sleft" src="images/left.png" onclick="prev()"/>
+                <img id="Sright" src="images/right.png" onclick="next()"/>
+            </div>
+			</div>
+			<div id="SnavBottom">
+			<a href="education.html"><b>KURSY!</b></a>
+			</div>
+			
+        </div>
+    </div>
+	
+	<article class="content">
+	
+	<section>Skontaktuj sie z nami!</section>
+	</br>
+		<div id="contactPicture">
+		<img id="offerPicture" src="images/phone.png">
+		</div>
+		<div id="contactText">
+		<b><center>Machine Factory S.A</center></b>
+		</br>
+		ul. Niebieska 13</br>
+		XX-XXX Miasto</br>
+		skrytka pocztowa: XXX</br>
+		</br>
+		tel: +48 XX XXX XX xx, +48 XX 854 XX 00, +48 XX XXX 62 00
+		fax: +48 17 XXX 07 50</br>
+		NIP: XXX XX 67 970</br>
+		REGON: 6XXX2XXX6</br>
+		
+		</div>
+		</br></br>
+		<center>
+		<div id="formularz">
+			<form method="post" action="kontakt.php">
+        
+			<label>Imie i nazwisko</label>
+			<input name="name" placeholder="Imie i Nazwisko">
+            
+			<label>Email</label>
+			<input name="email" type="email" placeholder="name@mail.pl">
+					
+			<label>Wiadomosæ</label>
+			<textarea name="message" style="resize:none;" placeholder="Napisz tu wiadomosæ"></textarea>
+					
+			<input id="submit" name="submit" type="submit" value="Wyslij">
+        
+		</form>
+		</div>
+		</center>
+		
+		</br></br>
+	<div style="clear: both; height: 20px;"></div>
+	</article>
+	<div style="clear: both"></div>
+	<footer class = "foot">
+		MachineFactory.com &copy; 2016.
+	</footer>
+
+
+
+</div>
+
+
+<script src="jquery-1.11.3.min.js"></script>
+
+<script src="JS/MenuChanger.js"></script>
+
+<script src="JS/StickyMenu.js"></script>
+
+<script src="JS/Slider.js"></script>
+
+</body>
+</html>

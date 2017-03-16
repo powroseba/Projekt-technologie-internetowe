@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang= "pl">
+<html>
+<head>
+	<link rel="icon" href="images/icon.ico" />
+	<title>Home -- Machine Factory</title>
+	<meta name="generator" content="Notepad++">
+	<meta name="author" content="Sebastian PowroŸnik">
+	<script src="jquery-1.11.3.min.js"></script>
+	<meta name="keywords" content="Sebastian PowroŸnik, Machine Factory, Fabryka Maszyn, CNC, Czêœæi Maszyn">
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+<body onload="Load()">
+	<div class="container">
+		<header id="BigHeader">
+			<a href="index.html"><img src="images/logo57.png"/></a>
+		</header>
+		<header id="MiddleHeader">
+			<a href="index.html"><img src="images/MiddleHeader.png"/></a>
+		</header>
+		<header id="SmallHeader">
+			<a href="index.html"><img src="images/MiddleHeader.png"/></a>
+		</header>
+	<nav class = "menumniejsze">
+		<div class = "menumniejszediv">MENU
+			<ol id="menumniejsze">
+			<li style="background-color: #262626; color: black; font-weight: bold; ">Strong G³ówna</li>
+			<li><a href="about.html">O Firmie</a></li>
+			<li><a href="offers.html">Oferty</a></li>
+			<li><a href="education.html">Kursy</a></li>
+			<li><a href="employment.html">Zatrudnienie</a></li>
+			<li><a href="contact.html">Kontakt</a></li>
+		</ol>
+		</div>
+	
+	</nav>
+	<div class="menu">
+		<ol id="menu">
+			<li style="background-color: #262626; color: black; font-weight: bold; ">Strong G³ówna</li>
+			<li><a href="about.html">O Firmie</a></li>
+			<li><a href="offers.html">Oferty</a></li>
+			<li><a href="education.html">Kursy</a></li>
+			<li><a href="employment.html">Zatrudnienie</a></li>
+			<li><a href="contact.html">Kontakt</a></li>
+		</ol>
+	</div>
+	
+	<div id="slider">
+		
+        <div id="imgs">
+			
+            <img id="Img4" src="images/4.jpg"/>
+            <img id="Img3" src="images/3.jpg"/>
+            <img id="Img2" src="images/2.jpg"/>
+            <img id="Img1" src="images/1.jpg"/>
+        </div>
+		
+        <div id="Snav">
+            <div id="SnavUp">
+                <div id="Scircles">
+                    <ul>
+                        <li id="S0"></li>
+                        <li id="S1"></li>
+                        <li id="S2"></li>
+                        <li id="S3"></li>
+						
+                    </ul>
+                </div>
+            </div>
+            <div id="SnavMiddle">
+                <img id="Sleft" src="images/left.png" onclick="prev()"/>
+                <img id="Sright" src="images/right.png" onclick="next()"/>
+            </div>
+			<div id="SnavBottom">
+			<a href="education.html"><b>KURSY!</b></a>
+			</div>
+        </div>
+    </div>
+	
+	<article class="content">
+	<div class="upSpaceIndex">
+		<div id="BoxIndex">
+			<div id="BoxUp">
+				<b><a id="boxUpLink" href="education.html">Zatrudnienia</a></b>
+			</div>
+			<div id="BoxDown">
+			<b>Pracuj u boku ekspertów:</b>
+				<ul>
+					<li>Zatrudnimy sta¿yste w dziale Zakupów,</li>
+					<li>Zatrudnimy sta¿yste - programowanie baz danych.</li>
+				</ul>
+			</div>
+		</div>
+		<div id="BoxIndex">
+			<div id="BoxUp">
+				<b><a id="boxUpLink" href="offers.html">Oferty</a></b>
+			</div>
+			<div id="BoxDown">
+			
+			<b>Z³ó¿ zamówienie na:</b>
+				<ul>
+					<li>Przek³adnie lotnicze i jej elementy,</li>
+					<li>konstrukcje SWOJEGO silnika!,</li>
+					<li>Wykonanie nietypowych metod obróbki cieplnej,</li>
+					<li>Wiele procesów spajania,</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div id="BoxIndex">
+			<div id="BoxUp">
+				<b><a id="boxUpLink" href="education.html">Kursy</a></b>
+			</div>
+			<div id="BoxDown">
+			<b>Wzbogaæ z nami swoja wiedzê zawodowa!</br>Oferujemy Ci:</b>
+				<ul>
+					<li>Kurs spawania,</li>
+					<li>Kurs oprogramowania AUTOCAD,</li>
+					<li>Kurs obs³ugi obrabiarek CNC,</li>
+					<li>Kurs obs³ugi obrabiarek wózka wid³owego.</li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>
+	<section><center><h4 id="TITLE">MACHINE FACTORY</h4></center></section>
+	<div class="rows">
+	
+	<div id="textOfferDiv">
+		 <b>Skontaktuj sie z nami!</b>
+
+	<b><center>Machine Factory S.A</center></b>
+		</br>
+		ul. Niebieska 13</br>
+		XX-XXX Miasto</br>
+		skrytka pocztowa: XXX</br>
+		</br>
+		tel: +48 XX XXX XX xx, +48 XX 854 XX 00, +48 XX XXX 62 00
+		fax: +48 17 XXX 07 50</br>
+		NIP: XXX XX 67 970</br>
+		REGON: 6XXX2XXX6</br>
+		</br>
+		<button id="btnClick">Kliknij</button>
+		<div class = "changewindow">
+	
+		<div>
+		
+		<div id="1">
+		Pokaz formularz:
+		</div>
+
+		<div id="2" style="display:none;">
+		Schowaj formularz
+		<div style="clear: both"></div>
+		<div id="formularz">
+			<form method="post" action="kontakt.php">
+        
+			<label>Imie i nazwisko</label>
+			<input name="name" placeholder="Imie i Nazwisko">
+            
+			<label>Email</label>
+			<input name="email" type="email" placeholder="name@mail.pl">
+					
+			<label>Wiadomosæ</label>
+			<textarea name="message" style="resize:none;" placeholder="Napisz tu wiadomosæ"></textarea>
+					
+			<input id="submit" name="submit" type="submit" value="Wyslij">
+        
+		</form>
+		</div>
+		</div>
+	
+	</div>
+		
+	</div>
+	</div>
+	<div id="pictureOfferDiv">
+		<center><img id="offerPicture" style="height:50%; width: 50%; margin-top: 20%;" 
+		src="images/phone.png"></center>
+	</div>
+	</div>
+	
+	
+	<div  id="space" style="clear: both; height: 20px;"></div>
+	
+	<div class="rows">
+	<div id="pictureOfferDiv">
+		<img id="offerPicture" src="images/robot.png">
+	</div>
+	<div id="textOfferDiv">
+		 <b>SKORZYSTAJ Z OFERT NASZEJ FIRMY</b>
+
+	</br></br>Nasza firma oferuje kursy oprogramowania AUTOCAD, celem szkolenia jest zapoznanie z:
+	</br>Wiele ofert!
+	<ul>
+		<li>Przek³adnie lotnicze i jej elementy,</li>
+		<li>konstrukcje SWOJEGO silnika!,</li>
+		<li>Wykonanie niekonwencjonalnych metod obróbki cieplnej,</li>
+		<li>Wiele procesów spajania,</li>
+	</ul>
+	</br>
+	
+	</br>Bogata oferta kursów!
+	<ul>
+		<li>Kurs spawania,</li>
+		<li>Kurs oprogramowania AUTOCAD,</li>
+		<li>Kurs obs³ugi obrabiarek CNC,</li>
+		<li>Kurs obs³ugi obrabiarek wózka wid³owego.</li>
+	</ul>
+	</br>
+	
+	</br>Specjliœci potrzebni do rozwijania naszej firmy!
+	<ul>
+		<li>Zatrudnimy sta¿yste w dziale Zakupów,</li>
+		<li>Zatrudnimy sta¿yste - programowanie baz danych.</li>
+	</ul>
+	</br>
+	
+	</div>
+	</div>
+	<div style="clear: both; height: 20px;"></div>
+	
+	</article>
+	<div style="clear: both"></div>
+	<footer class = "foot">
+		MachineFactory.com &copy; 2016.
+	</footer>
+
+
+
+</div>
+<script src="JS/PrzeladowanieDivOnButton.js"></script>
+
+<script src="jquery-1.11.3.min.js"></script>
+
+<script src="JS/MenuChanger.js"></script>
+
+<script src="JS/Slider.js"></script>
+
+<script src="JS/StickyMenu.js"></script>
+
+</body>
+</html>
